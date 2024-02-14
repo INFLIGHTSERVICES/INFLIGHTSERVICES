@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Headphone - INFLIGHTSERVICES</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .site-name {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-left: 20px; /* Marge à gauche */
+      margin-top: 10px;
+      color: darkblue;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .header-buttons {
+      margin-right: 20px; /* Marge à droite */
+    }
+    .header-buttons a {
+      color: darkblue;
+      text-decoration: underline;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .header-buttons a:hover {
+      color: black;
+    }
+    .product-name {
+      font-weight: bold;
+      font-size: 30px;
+      margin-top: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      color: darkblue;
+      margin-left: -170px;
+    }
+    .product-description {
+      font-size: 25px;
+      margin-top: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .product-image {
+      width: 100%;
+      height: auto;
+      float: left;
+      margin-right: 20px;
+      margin-left: -150px;
+    }
+    .return-button {
+      margin-bottom: 10px;
+      font-weight: bold;
+      transform: translateX(-50%);
+      background-color: transparent;
+      color: darkblue;
+      border: 2px solid darkblue;
+      padding: 10px 20px;
+      margin-left: -150px;
+    }
+    .return-button:hover {
+      background-color: rgba(0, 8, 115, 0.3);
+      color: darkblue;
+    }
+    .product-description{
+        font-weight: bold;
+         margin-bottom: 50px;
+    }
+    .contact-info p {
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      color: black;
+    }
+    .btn-contact-button{
+        background-color: darkblue;
+      color: white;
+      border: 2px solid darkblue;
+      padding: 10px 20px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <h1 class="site-name">INFLIGHTSERVICES</h1>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="header-buttons">
+        <a href="index.html" class="btn btn-link">Home</a>
+        <a href="about_us.html" class="btn btn-link">About us</a>
+        <a href="contact_us.html" class="btn btn-link">Contact us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Product Content -->
+  <div class="container mt-5">
+    <a href="products.html" class="btn btn-primary return-button">Retour</a>
+    <h2 class="product-name">-Headphone</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="headphone.jpg.png" alt="Product Image" class="img-fluid product-image">
+      </div>
+      <div class="col-md-6">
+        <p class="product-description">
+            Airplane headphones, also known as in-flight headphones, are specially designed audio devices provided to passengers during flights to enhance their entertainment experience. These headphones are optimized for use in the cabin environment, offering features that cater to the unique challenges of air travel. Typically, airplane headphones are lightweight, compact, and comfortable to wear for extended periods, ensuring passengers can enjoy movies, music, or other entertainment options without discomfort. They often feature noise-canceling technology to reduce ambient cabin noise, allowing passengers to immerse themselves fully in their chosen entertainment. Additionally, airplane headphones may come with adjustable headbands, cushioned ear cups, and tangle-free cords for convenience. Some airlines offer disposable or single-use headphones, while others provide higher-quality, reusable options in premium cabins. Regardless of the type, airplane headphones play a crucial role in enhancing the overall in-flight experience for passengers.
+        </p>
+        <a href="mailto:inflight.materials@gmail.com" > <button class="btn-contact-button">Email us</button> 
+      </div>
+    </div>
+  </div>
+  <div class="container contact-info mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="location.jpg" alt="Location" class="img-fluid">
+        <p class="mt-3">71-75 Shelton Street, Covent Garden, London</p>
+      </div>
+      <div class="col-md-4">
+        <img src="phone.jpg" alt="Phone" class="img-fluid">
+        <p class="mt-3">Phone: 00212 (0)6 65 10 22 98</p>
+      </div>
+      <div class="col-md-4">
+        <img src="email.jpg" alt="Email" class="img-fluid">
+        <p class="mt-3">Email: inflight.materials@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="footer mt-auto py-3" style="background-color: darkblue;">
+    <div class="container">
+      <span class="text-white">© 2024 INFLIGHTSERVICES. Tous droits réservés.</span>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
